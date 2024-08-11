@@ -1,42 +1,42 @@
 {
-  "name": "react-native-telephony",
-  "version": "1.5.1",
+  "name": "react-native-telephony-manager",
+  "version": "1.5.2",
   "description": "Android Telephony for React Native",
   "main": "index.js",
-	"scripts": {
-		"test": "jest"
-	},
-	"author": "Rafael Lincoln <rafaellincolnpereira@gmail.com>",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/rafaellincoln/react-native-telephony"
-	},
-	"keywords": [
-		"react",
-		"react-native",
-		"telephony",
-		"listen",
-		"call",
-		"android",
-		"cell",
-		"info"
-	],
-	"license": "MIT",
-	"devDependencies": {
-		"babel-jest": "20.0.3",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Bozhidar Bozhanov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Glamdring/react-native-telephony-manager"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "telephony",
+    "listen",
+    "call",
+    "android",
+    "cell",
+    "info"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "20.0.3",
     "babel-preset-react-native": "2.0.0",
-    "eslint": "^4.7.0",
-    "eslint-plugin-react": "^7.3.0",
-		"jest": "^20.0.4",
-		"react-test-renderer": "^16.0.0-rc.2",
-		"react": "^16.0",
-		"react-native": "^0.51"
-	},
-	"jest": {
-		"preset": "react-native"
-	},
-	"peerDependencies": {
-		"react": "^16.0",
-		"react-native": "^0.51"
-	}
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.35.0",
+    "jest": "^20.0.4",
+    "react": "18.2.0",
+    "react-native": "0.74.1",
+    "react-test-renderer": "18.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.74.1"
+  }
 }

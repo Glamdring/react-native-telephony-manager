@@ -1,5 +1,5 @@
 /*
-* @providesModule react-native-telephony
+* @providesModule react-native-telephony-manager
 */
 import { NativeModules, NativeAppEventEmitter, Platform } from 'react-native'
 
