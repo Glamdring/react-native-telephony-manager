@@ -1,26 +1,30 @@
-## React Native Telephony
-[![npm version](https://badge.fury.io/js/react-native-telephony.svg)](https://badge.fury.io/js/react-native-telephony)
+## React Native Telephony Manager
 
 ## Installation
 
 Add the package to your react-native project in the following way
 
 ```shell
-yarn add react-native-telephony
+npm install react-native-telephony-manager
+
+```
+OR
+```shell
+yarn add react-native-telephony-manager
 
 ```
 
 Link the current package to your react native project
 
 ```shell
-react-native link react-native-telephony
+react-native link react-native-telephony-manager
 
 ```
 
 ## Usage
 
 ``` javascript
-import Telephony from 'react-native-telephony'
+import Telephony from 'react-native-telephony-manager'
 
 componentWillMount() {
   Telephony.addEventListener(Telephony.LISTEN_CALL_STATE | Telephony.LISTEN_DATA_ACTIVITY,
