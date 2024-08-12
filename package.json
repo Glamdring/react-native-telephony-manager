@@ -9,7 +9,7 @@
   "author": "Bozhidar Bozhanov",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Glamdring/react-native-telephony-manager"
+    "url": "git+https://github.com/Glamdring/react-native-telephony-manager.git"
   },
   "keywords": [
     "react",
