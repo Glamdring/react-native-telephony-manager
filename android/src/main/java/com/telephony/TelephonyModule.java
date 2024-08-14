@@ -131,7 +131,8 @@ public class TelephonyModule extends ReactContextBaseJavaModule
         }
 
         int i = 0;
-
+        Log.i("TelephonyModule", "Total number of cellInfos: " + cellInfo.size());
+        
         for (CellInfo info : cellInfo) {
             WritableMap mapCellIdentity = Arguments.createMap();
             WritableMap mapCellSignalStrength = Arguments.createMap();
@@ -220,6 +221,8 @@ public class TelephonyModule extends ReactContextBaseJavaModule
                 mapCellSignalStrength.putInt("evdoLevel", cellSignalStrengthCdma.getEvdoLevel());
                 mapCellSignalStrength.putInt("evdoSnr", cellSignalStrengthCdma.getEvdoSnr());
                 mapCellSignalStrength.putInt("level", cellSignalStrengthCdma.getLevel());
+            } else {
+              Log.i("TelephonyModule", "Found cellInfo of unknown type " + info);
             }
 
             map.putMap("cellIdentity", mapCellIdentity);
